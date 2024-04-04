@@ -33,8 +33,8 @@ git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 git clone --depth 1 https://github.com/sirpdboy/luci-app-ddns-go package/deng/luci-app-ddns-go
-git_sparse_clone https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/luci-app-filebrowser
-git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
+git clone --depth 1 https://github.com/Lienol/openwrt-package package/luci-app-filebrowser
+git clone --depth 1 https://github.com/immortalwrt/luci applications/luci-app-eqos
 
 # Add luci-app-ssr-plus
 git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
